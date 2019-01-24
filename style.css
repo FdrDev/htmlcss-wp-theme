@@ -15,6 +15,7 @@ a{
 main{
   width: 70%;
   margin: auto;
+  height: 100%;
 }
 
 header{
@@ -43,8 +44,10 @@ header{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 nav{
   width: 100%;
+
 }
 .navbar{
   background-color: #524942;
@@ -53,10 +56,13 @@ nav{
   color:white;
 }
 
+ul{
+   list-style-type: none;
+ }
+
 .nav-list{
   width: 100%;
   margin: auto;
-  list-style-type:none;
   text-align:center;
   font-weight:300;
 
@@ -106,12 +112,11 @@ nav{
 
 .sidebar-left-list{
   width: 100%;
-  list-style-type: none;
 }
 
 .content{
-  width: 53%;
-  margin: 0 1%;
+  width: 50%;
+  margin: 0 2%;
   float: left;
   background-color: white;
   text-align: center;
@@ -141,9 +146,7 @@ nav{
   margin-top: 15px;
   background-color: white;
 }
-.recent-post-list-widget{
-  list-style-type: none;
-}
+
 
 .recent-post-item-list-widget{
   padding: 10px 0;
@@ -154,9 +157,29 @@ nav{
   background-color: white;
 }
 
+footer{
+  width: 70%;
+  margin: 20px auto;
 
-.clearfix:after{
-  content="";
+  background-color: white;
+}
+
+.archivies{
+  float: left;
+  width: 18%;
+}
+
+
+
+
+
+
+
+
+
+
+.clearfix:after {
+  content: "";
   display: table;
   clear: both;
 }
