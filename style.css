@@ -1,3 +1,35 @@
 *{
   box-sizing: border-box;
 }
+
+body{
+  background-image: url('img/background.jpg');
+  background-size: cover;
+}
+
+main{
+  width: 70%;
+  height: 100vw;
+  margin: auto;
+  background-color: grey;
+}
+
+.header-image > img{
+  width: 100%;
+  padding: 25px;
+}
+
+.header-image{
+  position: relative;
+}
+
+.logo > img{
+  width: 40%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+
+}
