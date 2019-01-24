@@ -5,18 +5,27 @@
 body{
   background-image: url('img/background.jpg');
   background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
 }
 
 main{
   width: 70%;
-  height: 100vw;
   margin: auto;
   background-color: grey;
 }
 
+header{
+  position: relative;
+  background-color: white;
+}
+
 .header-image > img{
   width: 100%;
-  padding: 25px;
+  padding: 15px;
 }
 
 .header-image{
@@ -24,12 +33,99 @@ main{
 }
 
 .logo > img{
+  width: 100%;
+}
+
+.logo{
   width: 40%;
   position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+nav{
+  width: 100%;
+}
+.navbar{
+  background-color: #524942;
+  width:100%;
+  height: 40px;
+  color:white;
+}
+
+.nav-list{
+  width: 100%;
+  margin: auto;
+  list-style-type:none;
+  text-align:center;
+  font-weight:300;
+
+}
+
+.nav-list-item{
+  display: inline-block;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+.nav-list-item:hover{
+  background-color: #312C28;
+}
+
+.colonne{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.sidebar-left{
+  width: 22%;
+  background-color: white;
+  text-align: center;
+  float: left;
+}
+
+.sidebar-left i{
+  font-size: 25px;
+  }
+
+.content{
+  width: 53%;
+  margin: 0 1%;
+  float: left;
+  background-color: white;
+  text-align: center;
+}
+
+.content h2{
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 5px 5px 10px black;
+}
+
+.sidebar-right{
+  width: 23%;
+  background-color: white;
+  float: left;
+}
+
+.sidebar-left-list{
+  width: 100%;
+  list-style-type: none;
+}
+
+.sidebar-left-list-item{
+  padding: 8px;
+
+}
 
 
+
+
+
+
+.clearfix:after{
+  content="";
+  display: table;
+  clear: both;
 }
