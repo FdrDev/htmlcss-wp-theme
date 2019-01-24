@@ -1,5 +1,5 @@
 *{
-  box-sizing: border-box;
+  box-sizing: border-box; margin:0; padding:0;
 }
 
 body{
@@ -15,7 +15,6 @@ a{
 main{
   width: 70%;
   margin: auto;
-  background-color: grey;
 }
 
 header{
@@ -78,16 +77,37 @@ nav{
   margin-top: 20px;
 }
 
+.colonne a{
+  color:rgb(247, 176, 22);
+}
+
 .sidebar-left{
   width: 22%;
   background-color: white;
   text-align: center;
   float: left;
+  padding: 10px;
 }
 
 .sidebar-left i{
   font-size: 25px;
-  }
+}
+
+.sidebar-left-list-item{
+  display:block;
+  padding:15px;
+}
+
+.colonne a:hover, .colonne li:hover{
+  background-color: rgb(232, 232, 232);
+  text-decoration: underline;
+
+}
+
+.sidebar-left-list{
+  width: 100%;
+  list-style-type: none;
+}
 
 .content{
   width: 53%;
@@ -105,23 +125,34 @@ nav{
 
 .sidebar-right{
   width: 23%;
-  background-color: white;
   float: left;
+  }
+
+
+.widget >*{
+  padding: 15px;
 }
 
-.sidebar-left-list{
-  width: 100%;
+.text-widget{
+  background-color: white;
+}
+
+.recent-post{
+  margin-top: 15px;
+  background-color: white;
+}
+.recent-post-list-widget{
   list-style-type: none;
 }
 
-.sidebar-left-list-item{
-  padding: 8px;
-
+.recent-post-item-list-widget{
+  padding: 10px 0;
 }
 
-
-
-
+.calendar{
+  margin-top: 15px;
+  background-color: white;
+}
 
 
 .clearfix:after{
